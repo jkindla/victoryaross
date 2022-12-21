@@ -1,0 +1,114 @@
+.container-fluid {
+	padding: 0;
+	overflow: hidden;
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+/*--------Day 95-----*/
+
+#ninetyfive .content {
+	background-color: black;
+	padding: 5rem 0 12rem 0;
+}
+
+#ninetyfive .row {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 90%;
+}
+
+#ninetyfive .firstfont {
+	font-family: 'Six Caps', cursive;
+	font-size: 20vw;
+	line-height: 1.25em;
+	color: white;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: .4;
+
+}
+
+#ninetyfive .secondfont {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 5px;
+	font-size: 2.15vw;
+	line-height: 1.75em;
+	text-align: center;
+	color: #fff;
+	width: 40vw;
+	height: 35vw;
+	border: 5px solid #fff;
+	padding: 9vw 8vw 0vw 8vw;
+	position: absolute;
+	top: 5%;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#ninetyfive .secondfont:hover {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+@media only screen and (max-width : 768px) {
+
+	#ninetyfive .secondfont {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 5px;
+	font-size: 3.5vw;
+	line-height: 1.75em;
+	color: #fff;
+	width: 60vw;
+	height: 45vw;
+	border: 3px solid #fff;
+	padding: none;
+	position: absolute;
+	top: 10%;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+  #ninetyfive .secondfont:hover {
+    background: #fff;
+    color: #000;
+    border: none;
+    font-weight: bold;
+  }
+}
+
+
+/*-----End Media Query------*/
+
+#ninetyfive .colophon {
+	font-family: Montserrat, sans-serif;
+	color: #151515;
+	font-size: .75em;
+	line-height: 2.5em;
+	margin: 10rem 0 0 0;
+	padding: 0 5rem 0 5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#ninetyfive a {
+	color: slategrey;
+}
+
+#ninetyfive a:hover {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+/*--------Day 96-----*/
