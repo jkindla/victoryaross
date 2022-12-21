@@ -519,7 +519,7 @@ hr.abouthr {
 
 
 
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 750px) {
 
   .direct-contact-container, .form-wrapper {
     float: none;
@@ -532,7 +532,7 @@ hr.abouthr {
  
   
   .name, .email, textarea {
-    width: 280px;
+    width: 80px;
   } 
   
   .direct-contact-container {
@@ -556,9 +556,29 @@ hr.abouthr {
   
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 750px) {
   .send-button {
-    width: 99%;
+    width: 75%;
+    margin-left: 50px;
   }
+
+  .form-control{
+
+    max-width: 300px;
+
+  }
+
+  #name, #email {
+    margin-left: 35px;
+  } 
+
+  .send-text, .fa-paper-plane {
+    
+    margin-right: 125px;
+    
+  }
+  
+
+  
 }
 
