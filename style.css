@@ -196,6 +196,13 @@ font-family: 'Comfortaa', cursive;
 
 }
 
+@media (max-width: 750px) {
+  #cv {
+    font-size: 40px;
+  }
+
+}
+
 .card-body {
 
   background: #f1f1f1;
